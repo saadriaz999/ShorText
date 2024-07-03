@@ -1,6 +1,7 @@
 package javaapplication1;
 
-public class BinaryHeap {  //min heap is used to maintain a list a of frequencies in ascending order
+// min heap is used to maintain a list a of frequencies in ascending order
+public class BinaryHeap {  
     CharNode[] heap = new CharNode[HashTable.noOfUnicodeChars];
     int empty = 0; // index of first empty slot in array
 
